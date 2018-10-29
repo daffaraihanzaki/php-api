@@ -37,5 +37,6 @@
   	</tr>';
   }
   ?>
+  <a href="input.php">INSERT DATA</a>
 </body>
 </html>
