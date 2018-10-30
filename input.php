@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daffa Raihan Zaki</title>
+    <link rel="stylesheet" href="input.css">
 </head>
 <body>
     <form method="post" action="insert.php">
-        <table>
+        <table align="center">
             <tr>
-        	    <td>id</td>
-  	            <td><input type="text" name="Id"></td>
+        	    <td>Id</td>
+  	            <td><input type="number" name="Id" placeholder="Masukan Id Anda" ></td>
             </tr>
             <tr>
         	    <td>Username</td>
-  	            <td><input type="text" name="Username"></td>
+  	            <td><input type="text" name="Username" placeholder="Masukan Username Anda Anda"></td>
             </tr>
             <tr>
         	    <td>Password</td>
-  	            <td><input type="text" name="Password"></td>
+  	            <td><input type="text" name="Password" placeholder="Masukan Password Anda"></td>
             </tr>
             <tr>
         	    <td>Level</td>
@@ -30,10 +31,10 @@
             </tr>
             <tr>
         	    <td>Fullname</td>
-  	            <td><input type="text" name="Fullname"></td>
+  	            <td><input type="text" name="Fullname" placeholder="Masukan Fullname Anda"></td>
             </tr>
             <tr>
-                <td><button>SUBMIT</button></td>
+                <td><button >SUBMIT</button></td>
             </tr>
         </table>
     </form>
